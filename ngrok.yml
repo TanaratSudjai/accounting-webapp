@@ -1,0 +1,9 @@
+authtoken: YOUR_NGROK_AUTH_TOKEN
+region: ap
+tunnels:
+  web:
+    addr: 8000        # พอร์ทที่รัน Laravel (เช่น 8000)
+    proto: http        # โปรโตคอลที่ใช้ (http/https)
+  ssh:
+    addr: 22           # ถ้าต้องการตั้งค่า tunnel SSH
+    proto: tcp
